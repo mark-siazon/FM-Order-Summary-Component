@@ -27,6 +27,9 @@
 }
 
 body{
+  width: var(--layout-desktop);
+  overflow: hidden;
+
   background: var(--clr-pri-pBlue) url(images/pattern-background-desktop.svg) no-repeat fixed;
   background-size: contain;
 
