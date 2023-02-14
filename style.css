@@ -1,0 +1,34 @@
+@import url('https://fonts.googleapis.com/css2?family=Red+Hat+Display:wght@500;700;900&display=swap');
+
+*{ /* # Front-end Style Guide:top: ;
+## Layout The designs were created to the following widths: */
+--layout-mobile: 375px;
+--layout-desktop: 1440px;
+
+/* ## Colors */
+/* ### Primary */
+--clr-pri-pBlue: hsl(225, 100%, 94%);
+--clr-pri-bBlue: hsl(245, 75%, 52%);
+/* ### Neutral */
+--clr-neu-vPaleBlue: hsl(225, 100%, 98%);
+--clr-neu-DesatuBlue: hsl(224, 23%, 55%);
+--clr-neu-darkBlue: hsl(223, 47%, 23%);
+
+/* ## Typography */
+/* ### Body Copy */
+--pri-font-size: 16px; /* (paragraph) */
+
+/* ### Font */
+--pri-font: 'Red Hat Display'; /* - Weights: 500, 700, 900 */
+
+--pri-font-weight-mid: 500;
+--pri-font-weight-sBold: 700;
+--pri-font-weight-bold: 900;
+}
+
+body{
+  background: var(--clr-pri-pBlue) url(images/pattern-background-desktop.svg) no-repeat fixed;
+  background-size: contain;
+
+  font-family: var(--pri-font-size), sans-serif;
+}
