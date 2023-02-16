@@ -27,11 +27,147 @@
 }
 
 body{
-  width: var(--layout-desktop);
+  font-size: var(--pri-font-size);
+  font-family: var(--pri-font), sans-serif;
+  min-height: 100vh;
   overflow: hidden;
-
+  margin: 0;
   background: var(--clr-pri-pBlue) url(images/pattern-background-desktop.svg) no-repeat fixed;
   background-size: contain;
+}
 
-  font-family: var(--pri-font-size), sans-serif;
+.d-flex{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+main.ctn-main{
+  width: var(--layout-mobile);
+}
+
+main.ctn-main > div, .card-img{
+  max-width: 375px;
+}
+
+/***** Main Container*****/
+main.ctn-main > div{
+  height: 525px;
+  background-color: var(--clr-neu-vPaleBlue);
+  border-radius: 20px;
+  box-shadow: 0px 0px 25px 2px rgba(75, 75, 75, 0.15);
+}
+
+.sub-ctn-main{
+  margin: 0 10%;
+  text-align: center;
+}
+
+.sub-ctn-main:first-child{
+  margin: 0 0 1.35rem;
+}
+/***** Row 1: Image Container*****/
+
+.subctn-main-img{
+  width: auto;
+}
+
+.card-img{
+  border-radius: 10px 10px 0 0;
+}
+
+
+/***** Row 2: Description Container *****/
+.title-desc{
+  font-weight: 900;
+  font-size: 1.45rem;
+  color: var(--clr-neu-darkBlue);
+  margin: 0 0 0.75rem;
+}
+
+.info-desc{
+  font-weight: var(--pri-font-weight-mid);
+  color: var(--clr-neu-DesatuBlue);
+  font-size: 0.875rem;
+  margin: 0;
+}
+
+/***** Row 3: Price Container *****/
+
+.ctn-price{
+  flex-direction: row;
+  margin: 1.75rem 0 3rem;
+}
+
+.ctn-price-col-2{
+  margin: 0 3.25rem 0 1rem ;
+}
+
+.ctn-price-col-2 > p{
+  font-size: 0.8rem;
+  margin: 0.25rem;
+}
+
+
+.price-header{
+  font-weight: 700;
+}
+
+.price-offer{
+  color: var(--clr-neu-DesatuBlue);
+}
+
+.price-btn-change{
+  font-size: 0.8rem;
+  font-weight: var(--pri-font-weight-mid);
+  color: var(--clr-pri-bBlue);
+}
+
+
+/***** Row 4: Button Container *****/
+
+.btn-pri > a{
+  background-color: var(--clr-pri-bBlue);
+  
+  padding: 0.8rem 5rem;
+  border-radius: 12px;
+
+  text-decoration: none;
+  color: var(--clr-neu-vPaleBlue);
+  font-size: 0.85rem;
+  font-weight: var(--pri-font-weight-sBold);
+  box-shadow: 0px 4px 10px 0px var(--clr-neu-DesatuBlue);
+}
+
+.btn-sec{
+  margin: 1.5rem 2rem 0;
+}
+
+.btn-sec > a{
+  text-decoration: none;
+  font-size: 0.9rem;
+  font-weight: var(--pri-font-weight-sBold);
+  color: var(--clr-neu-DesatuBlue);
+}
+
+/***** Active States *****/
+
+.price-btn-change:hover , .price-btn-change:active{
+  text-decoration: none;
+  color: var(--clr-neu-DesatuBlue);
+}
+
+.btn-pri > a:hover, .btn-pri > a:active{
+  background-color: var(--clr-neu-DesatuBlue);
+}
+
+.btn-sec > a:hover , .btn-sec > a:active{
+  color: var(--clr-neu-darkBlue);
+}
+
+.price-btn-change:hover , .price-btn-change:active,
+.btn-pri > a:hover, .btn-pri > a:active,
+.btn-sec > a:hover , .btn-sec > a:active{
+  cursor: pointer;
 }
