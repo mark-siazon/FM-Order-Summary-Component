@@ -47,7 +47,7 @@ Preview of initial design:
 
 <br>
 
-**Note: This is a Mobile-First Approach**
+**Note: This is a Mobile-First Approach & Wait for the GIF to load **
 
 <br>
 
@@ -67,8 +67,8 @@ All viewports were included (except for the 4k view), in case the observer wishe
 
 ### Links:
 
-- Live Site URL: [Website Link - Click Me]()
-- Solution URL: [FrontEndMentor - Click Me]()
+- Live Site URL: [Website Link - Click Me](https://order-summary-component-seven-alpha.vercel.app/)
+- Solution URL: [FrontEndMentor - Click Me](https://www.frontendmentor.io/solutions/order-summary-card-solution-mobilefirst-w-css-flexbox-VqnTPAKNOw)
 
 ## My process:
 
@@ -149,5 +149,5 @@ main.ctn-main{
   - Better Practice/Approach to making this website.
 - Feel free to approach and contact me :>
   - _Feb, 14 2022 (Wireframing & Initial Plan) + (Initial Coding)_
-  -_Feb, 17 2022 **Stopped for few days** (Continue Coding + Finalize Styles)_
+  - _Feb, 17 2022 **Stopped for few days** (Continue Coding + Finalize Styles)_
   - _Feb, 18 2022 (Documentation)_
