@@ -148,6 +148,6 @@ main.ctn-main{
   - Cleaner Code
   - Better Practice/Approach to making this website.
 - Feel free to approach and contact me :>
-  - _Feb, 14 2022 (Wireframing & Initial Plan) + (Initial Coding)_
-  - _Feb, 17 2022 **Stopped for few days** (Continue Coding + Finalize Styles)_
-  - _Feb, 18 2022 (Documentation)_
+  - _Feb, 14 2023 Wireframing & Initial Plan) + (Initial Coding)_
+  - _Feb, 17 2023 *Stopped for few days** (Continue Coding + Finalize Styles)_
+  - _Feb, 18 2023 Documentation)_
