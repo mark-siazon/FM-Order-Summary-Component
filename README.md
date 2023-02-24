@@ -16,6 +16,7 @@ Frontend Mentor challenges helps improve skills by building realistic projects.
   - [Continued development](#continued-development)
 - [Author](#author)
 - [Acknowledgments](#acknowledgments)
+- [Feedback & Suggestions](#feedback-&-Suggestions)
 - [Notes](#notes)
 
 ## Overview:
@@ -142,12 +143,41 @@ main.ctn-main{
 - I am grateful for my friends and those who motivate me to push through and not settle for relaxation.
 - I hope that this website serves its intended purpose. Thank you!
 
+
+## Feedback & Suggestions:
+### Community Feedback:
+
+- **Vanza Setia** • 24,595 [_(@vanzasetia)_](https://github.com/vanzasetia)
+
+  - For the card `(main.ctn-main)`, I don't see any issue. 
+    - You have set a `max-width` to it to prevent it from getting too large. 
+    - But, you don't need to set `height: fit-content` since it does not give any effect.
+
+  - For the HTML markup:
+    - There is no need to wrap the `<a>` tags and the `image` with `<div>` elements. 
+    - Keep the HTML markup as **simple as possible**.
+
+  - Also, I recommend using `<div>` instead of `<section>` tags: 
+    - You should not overuse `<section>` or `<article>` elements
+    - Since they can create unnecessary noises to screen reader users. 
+    - Also, they don't have meaning. 
+      - They only have meanings when they are labeled — [ WebAIM: HTML Semantics and Accessibility Cheat Sheet.](https://webaim.org/resources/htmlcheatsheet/)
+
+<br>
+
+### Next Action (Soon):
+- [ ] Implement changes from community feedback
+- [ ] Add some Javascript Functionalities
+- [ ] Create my own modified version of this project.
+- [ ] TBA...
+
 ## Notes:
 
 - I would be happy to receive comments, criticism, and such that could improve the website:
   - Cleaner Code
   - Better Practice/Approach to making this website.
 - Feel free to approach and contact me :>
-  - _Feb, 14 2022 (Wireframing & Initial Plan) + (Initial Coding)_
-  - _Feb, 17 2022 **Stopped for few days** (Continue Coding + Finalize Styles)_
-  - _Feb, 18 2022 (Documentation)_
+  - _Feb, 14 2023 (Wireframing & Initial Plan) + (Initial Coding)_
+  - _Feb, 17 2023 **Stopped for few days** (Continue Coding + Finalize Styles)_
+  - _Feb, 18 2023 (Documentation)_
+  - _Updated Feb 24, 2023_
