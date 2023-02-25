@@ -166,7 +166,13 @@ main.ctn-main{
 <br>
 
 ### Next Action (Soon):
-- [ ] Implement changes from community feedback
+- [x] Implement changes from community feedback
+  - [x] Remove `height: fit-content`  
+    - Since it does not give any effect.
+  - [x] Modify HTML, remove unnecessary divs, sections & tags
+    - Keep the HTML markup as **simple as possible**.
+  - [x] Replace `<section>` (Don't overuse `section` if it doesn't have meaning)
+
 - [ ] Add some Javascript Functionalities
 - [ ] Create my own modified version of this project.
 - [ ] TBA...
@@ -180,4 +186,4 @@ main.ctn-main{
   - _Feb, 14 2023 (Wireframing & Initial Plan) + (Initial Coding)_
   - _Feb, 17 2023 **Stopped for few days** (Continue Coding + Finalize Styles)_
   - _Feb, 18 2023 (Documentation)_
-  - _Updated Feb 24, 2023_
+  - _Updated Feb 25, 2023_

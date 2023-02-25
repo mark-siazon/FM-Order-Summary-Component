@@ -50,8 +50,7 @@ main.ctn-main,
 }
 
 main.ctn-main{
-  height: fit-content; /* Change: MQ */
-  padding-bottom: 2rem;
+  /* height: fit-content;  Change: MQ */
   background-color: var(--clr-neu-vPaleBlue);
   border-radius: 20px;
   box-shadow: 0px 0px 25px 2px rgba(75, 75, 75, 0.15);
@@ -108,7 +107,8 @@ main.ctn-main{
 }
 
 /***** Row 4: Button Container *****/
-.btn-pri > a{
+
+.btn-pri{
   background-color: var(--clr-pri-bBlue);
   color: var(--clr-neu-vPaleBlue);
   box-shadow: 0px 4px 10px 0px var(--clr-neu-DesatuBlue);
@@ -117,41 +117,42 @@ main.ctn-main{
 }
 
 .btn-sec{
-  margin: 1.5rem 2rem 0;
+  margin: 1.45rem 0 1.75rem;
+  display: block;
 }
-.btn-pri > a,
-.btn-sec > a{
+.btn-pri,
+.btn-sec{
   font-size: 0.825rem;
 }
 
 /***** Active States + Mixed Styles *****/
-.price-btn-change:hover , 
+.price-btn-change:hover, 
 .price-btn-change:active,
-.btn-pri > a:hover, .btn-pri > a:active,
-.btn-sec > a:hover , .btn-sec > a:active{
+.btn-pri:hover, .btn-pri:active,
+.btn-sec:hover , .btn-sec:active{
   cursor: pointer;
 }
 
 .price-btn-change:hover , .price-btn-change:active,
-.btn-pri > a,
-.btn-sec > a{
+.btn-pri,
+.btn-sec{
   text-decoration: none;
 }
 
 .info-desc,
 .price-offer, 
 .price-btn-change:hover, .price-btn-change:active,
-.btn-sec > a{
+.btn-sec{
   color: var(--clr-neu-DesatuBlue);
 }
 
-.btn-pri > a:hover, .btn-pri > a:active{
+.btn-pri:hover, .btn-pri:active{
   background-color: var(--clr-neu-DesatuBlue);
 }
 
 .title-desc,
-.btn-sec > a:hover, 
-.btn-sec > a:active{
+.btn-sec:hover, 
+.btn-sec:active{
   color: var(--clr-neu-darkBlue);
 }
 
@@ -161,7 +162,7 @@ main.ctn-main{
 }
 
 .price-header,
-.btn-pri > a,
-.btn-sec > a{
+.btn-pri,
+.btn-sec{
   font-weight: var(--pri-font-weight-sBold);
 }
