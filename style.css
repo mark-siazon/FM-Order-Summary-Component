@@ -1,0 +1,168 @@
+@import url('https://fonts.googleapis.com/css2?family=Red+Hat+Display:wght@500;700;900&display=swap');
+
+*{ /* # Front-end Style Guide:top: ;
+## Layout The designs were created to the following widths: */
+--layout-mobile: 375px;
+--layout-desktop: 1440px;
+
+/* ## Colors */
+/* ### Primary */
+--clr-pri-pBlue: hsl(225, 100%, 94%);
+--clr-pri-bBlue: hsl(245, 75%, 52%);
+/* ### Neutral */
+--clr-neu-vPaleBlue: hsl(225, 100%, 98%);
+--clr-neu-DesatuBlue: hsl(224, 23%, 55%);
+--clr-neu-darkBlue: hsl(223, 47%, 23%);
+
+/* ## Typography */
+/* ### Body Copy */
+--pri-font-size: 16px; /* (paragraph) */
+
+/* ### Font */
+--pri-font: 'Red Hat Display'; /* - Weights: 500, 700, 900 */
+
+--pri-font-weight-mid: 500;
+--pri-font-weight-sBold: 700;
+--pri-font-weight-bold: 900;
+}
+
+body{
+  font-size: var(--pri-font-size);
+  font-family: var(--pri-font), sans-serif;
+  min-height: 100vh;
+  overflow-x: hidden;
+  margin: 0;
+  background: var(--clr-pri-pBlue) url(images/pattern-background-desktop.svg) no-repeat fixed;
+  background-size: contain;
+}
+
+.d-flex{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+/***** Main Container*****/
+main.ctn-main, 
+.card-img{
+  max-width: 290px; /* Change: MQ*/
+}
+
+main.ctn-main{
+  /* height: fit-content;  Change: MQ */
+  background-color: var(--clr-neu-vPaleBlue);
+  border-radius: 20px;
+  box-shadow: 0px 0px 25px 2px rgba(75, 75, 75, 0.15);
+}
+
+.sub-ctn-main{
+  margin: 0 10%;
+  text-align: center;
+}
+
+.sub-ctn-main:first-child{
+  margin: 0 0 1.35rem;
+}
+
+/***** Row 1: Image Container*****/
+.card-img{
+  border-radius: 10px 10px 0 0;
+}
+
+/***** Row 2: Description Container *****/
+.title-desc{
+  font-weight: var(--pri-font-weight-bold);
+  font-size: 1.45rem;
+  margin: 0 0 0.75rem;
+}
+
+.info-desc{
+  font-size: 0.875rem;
+  margin: 0;
+}
+
+/***** Row 3: Price Container *****/
+
+.ctn-price{
+  flex-direction: row;
+  margin: 1.75rem 0 2.5rem; /* Change: MQ */
+}
+
+.ctn-price-col-2{
+  margin: 0 1.5rem 0 1rem;  /* Change: MQ */
+}
+
+.ctn-price-col-2 > p{
+  margin: 0.25rem; 
+}
+
+.ctn-price-col-2 > p,
+.price-btn-change{
+  font-size: 0.8rem;
+}
+
+.price-btn-change{
+  color: var(--clr-pri-bBlue);
+}
+
+/***** Row 4: Button Container *****/
+
+.btn-pri{
+  background-color: var(--clr-pri-bBlue);
+  color: var(--clr-neu-vPaleBlue);
+  box-shadow: 0px 4px 10px 0px var(--clr-neu-DesatuBlue);
+  border-radius: 12px;
+  padding: 0.75rem 3rem; /* Change: MQ */
+}
+
+.btn-sec{
+  margin: 1.45rem 0 1.75rem;
+  display: block;
+}
+.btn-pri,
+.btn-sec{
+  font-size: 0.825rem;
+}
+
+/***** Active States + Mixed Styles *****/
+.price-btn-change:hover, 
+.price-btn-change:active,
+.btn-pri:hover, .btn-pri:active,
+.btn-sec:hover , .btn-sec:active{
+  cursor: pointer;
+}
+
+.price-btn-change:hover , .price-btn-change:active,
+.btn-pri,
+.btn-sec{
+  text-decoration: none;
+}
+
+.info-desc,
+.price-offer, 
+.price-btn-change:hover, .price-btn-change:active,
+.btn-sec{
+  color: var(--clr-neu-DesatuBlue);
+}
+
+.btn-pri:hover, .btn-pri:active{
+  background-color: var(--clr-neu-DesatuBlue);
+}
+
+.title-desc,
+.btn-sec:hover, 
+.btn-sec:active{
+  color: var(--clr-neu-darkBlue);
+}
+
+.info-desc,
+.price-btn-change{
+  font-weight: var(--pri-font-weight-mid);
+}
+
+.price-header,
+.btn-pri,
+.btn-sec{
+  font-weight: var(--pri-font-weight-sBold);
+}
