@@ -68,7 +68,7 @@ All viewports were included (except for the 4k view), in case the observer wishe
 
 ### Links:
 
-- Live Site URL: [Website Link - Click Me](https://order-summary-component-seven-alpha.vercel.app/)
+- Live Site URL: [Website Link - Click Me](https://mark-siazon.github.io/FM-Order-Summary-Component/)
 - Solution URL: [FrontEndMentor - Click Me](https://www.frontendmentor.io/solutions/order-summary-card-solution-mobilefirst-w-css-flexbox-VqnTPAKNOw)
 
 ## My process:
